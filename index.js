@@ -1,6 +1,6 @@
-const toHaveStyleRule = require('./toHaveStyleRule');
+const toHaveStyleRule = require('jest-styled-components/src/toHaveStyleRule');
 const styleSheetSerializer = require('./styleSheetSerializer');
-const { resetStyleSheet } = require('./utils');
+const { resetStyleSheet } = require('jest-styled-components/src/utils');
 
 global.beforeEach(resetStyleSheet);
 

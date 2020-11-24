@@ -1,5 +1,5 @@
 const css = require('css');
-const { getCSS, getHashes } = require('jest-styled-components/utils');
+const { getCSS, getHashes } = require('jest-styled-components/src/utils');
 const jscSerializer = require('jest-styled-components/serializer/index');
 
 const KEY = '__jest-styled-components__';

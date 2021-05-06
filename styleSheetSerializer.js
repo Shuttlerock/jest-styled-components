@@ -105,7 +105,7 @@ const replaceHashes = (result, hashes) =>
 
 
 module.exports = {
-  test: jscSerializer.test,
+  test: jscSerializer.styleSheetSerializer.test,
   print(val, print) {
     const nodes = getNodes(val);
     markNodes(nodes);

@@ -1,6 +1,6 @@
 {
   "name": "@shuttlerock/jest-styled-components",
-  "version": "7.0.14",
+  "version": "7.0.15",
   "description": "Wrapper around jest-styled-components allowing us to remove stylesheets and classes from the snapshots totally",
   "main": "index.js",
   "repository": "https://github.com/shuttlerock/jest-styled-components",
@@ -9,5 +9,10 @@
   "private": false,
   "dependencies": {
     "jest-styled-components": "^7.0.3"
-  }
+  },
+  "files": [
+    "package.json",
+    "index.js",
+    "styleSheetSerializer.js"
+  ]
 }
